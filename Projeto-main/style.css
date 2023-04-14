@@ -1,0 +1,93 @@
+body {
+    text-align: left;
+    background-color: rgb(	13	13	63);
+    margin: 15px 0 0 0;
+    color: #ff8888;
+    font-family: 'kanit';
+}
+ul {
+  
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d0d3f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  
+  display: block;
+  color: #b0b8d1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #090930;
+}
+#searchbar{
+    
+    background-color: rgb(176, 184, 209);
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+  }
+  
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.animals{
+  display: list-item;    
+ } 
+.topo  {
+    text-align: left;
+    text-transform: capitalize;
+    padding: 32px;
+    background-color: #0d0d3f;
+    color: #8fa8f2;
+    border-bottom: 6px solid #c91616;
+    border-radius: 10px;
+    flex-direction: row;
+  }
+.logo {
+    width: 50px;
+    height: auto;
+}
+.catalogo img {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+ }
